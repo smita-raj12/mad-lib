@@ -1,6 +1,7 @@
   $(document).ready(function() {
     $("#formOne").submit(function(event) {
       event.preventDefault();
+      $("#formOne").hide();
       const IdInput = $("input#id").val();
       const fnameInput = $("input#fname").val();
       const mnameInput= $("input#mname").val();

@@ -1,3 +1,10 @@
 #address {
   display: none;
 }
+body{
+  background-color: dimgrey;
+}
+h1{
+  text-align: center;
+  color: brown;
+}
